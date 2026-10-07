@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 # read a Data
-df = pd.read_csv("~/myproject/Model/Car price/car_prices_1000.csv")
+df = pd.read_csv("car_prices_1000.csv")
 df = df.fillna("nan")
 
 X = df.drop(columns=["price", "id"])
